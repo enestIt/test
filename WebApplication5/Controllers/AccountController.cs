@@ -19,6 +19,9 @@ using WebApplication5.Results;
 
 namespace WebApplication5.Controllers
 {
+    /// <summary>
+    /// Test class
+    /// </summary>
     [Authorize]
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
